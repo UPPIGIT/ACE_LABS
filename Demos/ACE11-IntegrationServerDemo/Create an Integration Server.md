@@ -11,8 +11,7 @@ Create an Integration Server
  Instead, you will need to open an App Connect Enterprise Command Console and start an integration server in that console session
  
  Open an App Connect Enterprise Command Console and start an integration server using the following command:
- 
- ....................................................................................................................
+-----------------------------------------------------------------------------------------------------------------------------------------------
  ◦If you are using a Windows platform: 
  IntegrationServer --work-dir C:\MyServer 
 				  --name MyServer 
@@ -27,6 +26,8 @@ IntegrationServer --work-dir /home/exampleuser/MyServer
 				--name MyServer --admin-rest-api 7600 
 				--http-port-number 7900 
 				--console-log 
+				
+				
 where /home/exampleuser/MyServer is a folder on your file system that the server will use for its working directory. 
 
 ------------------------------------------------------------------------------------------------------------------------------------
